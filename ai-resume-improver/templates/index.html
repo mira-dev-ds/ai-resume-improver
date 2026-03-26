@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Improver</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f8;
+            text-align: center;
+            padding: 40px;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        pre {
+            background: white;
+            padding: 15px;
+            width: 60%;
+            margin: auto;
+            text-align: left;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🚀 AI Resume Improver</h1>
+
+    <form method="POST">
+        <textarea name="resume" placeholder="Paste your resume here..."></textarea><br><br>
+        <button type="submit">Improve Resume</button>
+    </form>
+
+    <h3>✨ Improved Resume:</h3>
+    <pre>{{ improved }}</pre>
+
+</body>
+</html>
